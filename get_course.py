@@ -83,6 +83,9 @@ def download_course(URL, name):
 
 
 if __name__ == "__main__":
-    URL = ""
+    URL = "" 
+    # This URL will be avilable through course
+    # https://nptel.ac.in/courses/106/106/106106169/ 
     name = ""
+    # Name of Course (for making directory)
     download_course(URL, name)
